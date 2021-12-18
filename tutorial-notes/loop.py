@@ -21,9 +21,12 @@ while n > 0:
     n -= 1 """
 
 # * continue and break keyword
-# print all the number under n / 2
-""" n = 100
-for i in range(n):
-    if (n < (n / 2)):
+""" for i in range(100):
+    if i % 11 == 0:
+        continue
+    print(i) """
+
+""" for i in range(10):
+    if i == 6:
         break
     print(i) """
