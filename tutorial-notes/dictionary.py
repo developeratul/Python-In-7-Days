@@ -3,11 +3,7 @@
 # and you can access the value using the key
 # dictionaries are mutable
 # they are also iterable
-obj = {
-  "name": "DevR",
-  "age": 16,
-  "isActive": True
-}
+obj = {"name": "DevR", "age": 16, "isActive": True}
 
 # access object value using the key and update value
 """ print(obj["name"])
@@ -24,7 +20,9 @@ print(obj) """
 # dictionary methods
 newObj = obj.copy()
 print(newObj)
-print(obj.fromkeys(["name", "age"], 10)) # create a dictionary with 2 keys and set the value to 10
+print(
+    obj.fromkeys(["name", "age"], 10)
+)  # create a dictionary with 2 keys and set the value to 10
 print(obj.get("name"))
 print(obj.items())
 print(obj.keys())
@@ -34,6 +32,5 @@ print(obj.keys())
 # print(obj)
 # print(obj.setdefault("profession", "Programmer"))
 # print(obj)
-obj.update({ "name": "Ratul" })
+obj.update({"name": "Ratul"})
 print(obj)
-print(obj.keys())
