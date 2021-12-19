@@ -14,6 +14,6 @@ I learnt some basics of python from the youtube video and did some practice's to
 
 ## Day-2
 
-I completed the python tutorial video. and did some simple problem solving's and felt a bit confident about it ��
+I completed the python tutorial video. and did a lot of problem solving's and felt a bit confident about it ��
 
 ![Day-2 problem solving status](./assets/images/challenges-day-2.jpg)
