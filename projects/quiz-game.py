@@ -82,13 +82,10 @@ def askQuestion(currentIndex: int) -> None:
     print("")
     usersAnswer: str = input("Enter your decision here: ")
 
-    correctAnswer: bool = True
+    correctAnswer: bool = False
 
-    # if the user is typing alphaets then it will throw error when typecasting means the answer is still wrong
-    try:
+    if usersAnswer.isdigit():
         correctAnswer = int(usersAnswer) - 1 == currentQuestion["answer"]
-    except:
-        correctAnswer = False
 
     if correctAnswer:
         # update the score cause the user has given correct answer
